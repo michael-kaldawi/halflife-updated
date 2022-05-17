@@ -480,6 +480,7 @@ void CWorld::Spawn()
 
 void CWorld::Precache()
 {
+	ALERT(at_console, "Hello, world! (from server)\n");
 	g_pLastSpawn = NULL;
 
 #if 1
